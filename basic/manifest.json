@@ -1,0 +1,19 @@
+{
+  "name": "Get CAPTCHA code from image",
+  "description": "Get CAPTCHA code from image, as simple as that.",
+  "version": "0.1",
+  "permissions": [
+    "contextMenus",
+    "webRequest",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3,
+  "host_permissions": [
+    "http://*:*/*",
+    "https://*:*/*"
+  ]
+}
